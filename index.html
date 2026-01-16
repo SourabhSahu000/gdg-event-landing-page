@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDG Spring Dev Summit 2026</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="bg-image"></div>
+    <div class="bg-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">GDG <span class="highlight">Spring</span> Summit</span>
+            </a>
+            <div class="nav-right">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <span class="material-icons-round">dark_mode</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <span class="eyebrow fade-in-up">March 28, 2026 • Sage University Indore Madhya Pradesh</span>
+                <h1 class="hero-title fade-in-up delay-1">GDG Spring Dev Summit 2026</h1>
+                <p class="hero-subtitle fade-in-up delay-2">Build. Learn. Connect.</p>
+
+                <!-- Countdown -->
+                <div class="countdown-container glass fade-in-up delay-3">
+                    <div class="time-box">
+                        <span id="days" class="time-val">00</span>
+                        <span class="time-label">Days</span>
+                    </div>
+                    <div class="separator">:</div>
+                    <div class="time-box">
+                        <span id="hours" class="time-val">00</span>
+                        <span class="time-label">Hours</span>
+                    </div>
+                    <div class="separator">:</div>
+                    <div class="time-box">
+                        <span id="minutes" class="time-val">00</span>
+                        <span class="time-label">Mins</span>
+                    </div>
+                    <div class="separator">:</div>
+                    <div class="time-box">
+                        <span id="seconds" class="time-val">00</span>
+                        <span class="time-label">Secs</span>
+                    </div>
+                </div>
+
+                <div class="hero-actions fade-in-up delay-4">
+                    <button id="register-btn-hero" class="btn btn-primary">Register Now</button>
+                    <a href="#about" class="btn btn-text">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section glass-panel">
+            <div class="container">
+                <h2 class="section-title">About The Event</h2>
+                <p class="section-desc">
+                    GDG Spring Dev Summit 2026 is a community-driven event focused on Google technologies.
+                    Join us to explore the latest in frontend, backend, AI, cloud, and career growth.
+                    Connect with industry experts and fellow developers in the heart of Sage University Indore Madhya
+                    Pradesh.
+                </p>
+            </div>
+        </section>
+
+        <!-- Speakers Section -->
+        <section id="speakers" class="section">
+            <div class="container">
+                <h2 class="section-title text-center">Featured Speakers</h2>
+                <div class="speakers-grid">
+                    <!-- Speaker 1 -->
+                    <div class="speaker-card glass hover-card">
+                        <div class="speaker-img-container">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&h=200&q=80"
+                                alt="Sarah Chen" class="speaker-img">
+                        </div>
+                        <h3 class="speaker-name">Sarah Chen</h3>
+                        <p class="speaker-role">GDE • Web Technologies</p>
+                        <div class="speaker-socials">
+                            <span class="material-icons-round">code</span>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 2 -->
+                    <div class="speaker-card glass hover-card">
+                        <div class="speaker-img-container">
+                            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&w=200&h=200&q=80"
+                                alt="Alex Johnson" class="speaker-img">
+                        </div>
+                        <h3 class="speaker-name">Alex Johnson</h3>
+                        <p class="speaker-role">Senior Cloud Architect</p>
+                        <div class="speaker-socials">
+                            <span class="material-icons-round">cloud</span>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 3 -->
+                    <div class="speaker-card glass hover-card">
+                        <div class="speaker-img-container">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&h=200&q=80"
+                                alt="Priya Patel" class="speaker-img">
+                        </div>
+                        <h3 class="speaker-name">Priya Patel</h3>
+                        <p class="speaker-role">Machine Learning Engineer</p>
+                        <div class="speaker-socials">
+                            <span class="material-icons-round">psychology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section text-center">
+            <div class="container">
+                <h2 class="section-title">Ready to join us?</h2>
+                <p class="section-desc">Seats are limited for this exclusive summit.</p>
+                <button id="register-btn-footer" class="btn btn-primary btn-large mt-4">Secure Your Spot</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer glass">
+        <div class="container footer-content">
+            <p>&copy; 2026 Google Developer Groups. All Rights Reserved.</p>
+            <p class="footer-note">Disclaimer: GDG is an independent group; our activities and the opinions expressed
+                here should in no way be linked to Google, the corporation.</p>
+        </div>
+    </footer>
+
+    <!-- Registration Modal -->
+    <div id="reg-modal" class="modal-backdrop">
+        <div class="modal glass">
+            <button class="close-modal"><span class="material-icons-round">close</span></button>
+            <div class="modal-content text-center">
+                <div class="success-icon">
+                    <span class="material-icons-round">check_circle</span>
+                </div>
+                <h2>You're In!</h2>
+                <p>Thanks for registering for GDG Spring Dev Summit 2026.</p>
+                <p>We've sent a confirmation email to your inbox.</p>
+                <button class="btn btn-primary close-btn-action">Awesome</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
